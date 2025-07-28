@@ -69,6 +69,58 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Steps Section */}
+      <section className="py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="space-y-16">
+            {/* Step 1 */}
+            <div className="grid md:grid-cols-12 gap-8 items-center">
+              <div className="md:col-span-10">
+                <h3 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+                  Native language tutoring in MYP and GCSE
+                </h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Our experts offer MYP and GCSE tutoring in various languages, preparing students for a smooth transfer to English language education. We strive to inspire teenagers to reach their full potential — all while meeting the most demanding requirements from the world's leading schools.
+                </p>
+              </div>
+              <div className="md:col-span-2 flex justify-center md:justify-end">
+                <span className="text-[120px] md:text-[150px] font-bold text-primary/20 leading-none">1</span>
+              </div>
+            </div>
+
+            {/* Step 2 */}
+            <div className="grid md:grid-cols-12 gap-8 items-center">
+              <div className="md:col-span-10">
+                <h3 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+                  Transferring painlessly from national to international programmes
+                </h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  We carefully address all the challenges faced by students seeking to transition to IB and British Curriculum education.
+                </p>
+              </div>
+              <div className="md:col-span-2 flex justify-center md:justify-end">
+                <span className="text-[120px] md:text-[150px] font-bold text-primary/20 leading-none">2</span>
+              </div>
+            </div>
+
+            {/* Step 3 */}
+            <div className="grid md:grid-cols-12 gap-8 items-center">
+              <div className="md:col-span-10">
+                <h3 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+                  Completing GCSE and A-Level tuition from any part of the world
+                </h3>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Lagrange.kz makes high-quality education accessible to students regardless of their location. We empower teenagers to pursue globally recognised qualifications without the need to relocate.
+                </p>
+              </div>
+              <div className="md:col-span-2 flex justify-center md:justify-end">
+                <span className="text-[120px] md:text-[150px] font-bold text-primary/20 leading-none">3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
