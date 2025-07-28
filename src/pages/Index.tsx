@@ -213,9 +213,9 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-16 px-6 bg-muted/50">
+      <footer className="py-20 px-6 bg-muted/50">
         <div className="max-w-6xl mx-auto">
-          <div className="bg-card rounded-2xl shadow-soft p-8">
+          <div className="bg-card rounded-2xl shadow-soft p-12">
             <div className="grid md:grid-cols-3 gap-8 items-center">
               {/* Left Column - Contact Info */}
               <div className="text-center md:text-left">
