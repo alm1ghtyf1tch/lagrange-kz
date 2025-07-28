@@ -60,11 +60,11 @@ const Index = () => {
 
       {/* Vision Statement Section */}
       <section className="py-24 px-6 bg-muted/20 border-t border-border/20 shadow-sm relative z-10">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-display leading-tight">
+        <div className="max-w-full mx-auto px-8">
+          <h2 className="text-display leading-tight text-center w-full">
             We create educational journeys<br />
-            for the next generation of leaders<br />
-            and pioneers
+            for the next generation of <span className="text-primary font-extrabold bg-primary/10 px-2 py-1 rounded">leaders</span><br />
+            and <span className="text-primary font-extrabold bg-primary/10 px-2 py-1 rounded">pioneers</span>
           </h2>
         </div>
       </section>
