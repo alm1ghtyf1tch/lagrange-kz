@@ -204,7 +204,9 @@ const Index = () => {
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-display mb-8">
-            We will help you from A to Z. Call us.
+            We will help you <br />
+            <span className="text-primary">from A to Z</span>. <br />
+            Call us.
           </h2>
           <button className="btn-primary text-xl px-12 py-6">
             Schedule Your Call
