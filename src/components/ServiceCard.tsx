@@ -9,7 +9,7 @@ interface ServiceCardProps {
 
 const ServiceCard = ({ title, backgroundImage, hoverContent, className = "" }: ServiceCardProps) => {
   return (
-    <div className={`service-card h-80 ${className}`}>
+    <div className={`service-card group h-80 ${className}`}>
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${backgroundImage})` }}

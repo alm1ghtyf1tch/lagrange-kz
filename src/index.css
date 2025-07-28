@@ -157,7 +157,7 @@ All colors MUST be HSL.
 
   /* Service Cards */
   .service-card {
-    @apply relative overflow-hidden rounded-2xl bg-card shadow-soft hover:shadow-medium transition-all duration-500 cursor-pointer group;
+    @apply relative overflow-hidden rounded-2xl bg-card shadow-soft hover:shadow-medium transition-all duration-500 cursor-pointer;
   }
   
   .service-card-overlay {
