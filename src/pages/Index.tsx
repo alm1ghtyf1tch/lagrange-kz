@@ -59,7 +59,7 @@ const Index = () => {
       </section>
 
       {/* Vision Statement Section */}
-      <section className="py-24 px-6 bg-muted/20">
+      <section className="py-24 px-6 bg-muted/20 border-t border-border/20 shadow-sm relative z-10">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-display leading-tight">
             We create educational journeys<br />
@@ -70,7 +70,7 @@ const Index = () => {
       </section>
 
       {/* Steps Section */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 border-t border-border/20 shadow-sm relative z-20 bg-background">
         <div className="max-w-7xl mx-auto">
           <div className="space-y-0">
             {/* Step 1 - Number on left */}
@@ -122,7 +122,7 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 border-t border-border/20 shadow-sm relative z-10 bg-muted/10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-section mb-4">Our Pathways to Success</h2>
@@ -214,7 +214,7 @@ const Index = () => {
       </section>
 
       {/* Inquiry CTA Section */}
-      <section className="py-12 px-6 bg-primary/5">
+      <section className="py-12 px-6 bg-primary/5 border-t border-border/20 shadow-sm relative z-20">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-lg text-muted-foreground mb-4">
             Interested in our educational guidance?
@@ -226,7 +226,7 @@ const Index = () => {
       </section>
 
       {/* Conference Section */}
-      <section className="py-20 px-6 bg-muted/30">
+      <section className="py-20 px-6 bg-muted/30 border-t border-border/20 shadow-sm relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-section mb-4">🎓 Upcoming Conferences in Kazakhstan</h2>
@@ -276,7 +276,7 @@ const Index = () => {
       </section>
 
       {/* Outro CTA Section */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 border-t border-border/20 shadow-sm relative z-20 bg-background">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-display mb-8">
             We will help you <br />
@@ -290,7 +290,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-20 px-6 bg-muted/50">
+      <footer className="py-20 px-6 bg-muted/50 border-t border-border/20 shadow-sm relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="bg-card rounded-2xl shadow-soft p-12">
             <div className="grid md:grid-cols-3 gap-8 items-center">
