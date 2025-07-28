@@ -70,7 +70,7 @@ const Index = () => {
       </section>
 
       {/* Steps Section */}
-      <section className="py-20 px-6 border-t border-border/20 shadow-sm relative z-20 bg-background">
+      <section className="py-20 px-6 border-t border-border/20 shadow-sm relative z-20 bg-blue-50/30">
         <div className="max-w-7xl mx-auto">
           <div className="space-y-0">
             {/* Step 1 - Number on left */}
