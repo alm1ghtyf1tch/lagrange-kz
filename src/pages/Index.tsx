@@ -58,6 +58,17 @@ const Index = () => {
         <ScrollIndicator />
       </section>
 
+      {/* Vision Statement Section */}
+      <section className="py-24 px-6 bg-muted/20">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-display leading-tight">
+            We create educational journeys<br />
+            for the next generation of leaders<br />
+            and pioneers
+          </h2>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
