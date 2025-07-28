@@ -150,6 +150,18 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Inquiry CTA Section */}
+      <section className="py-12 px-6 bg-primary/5">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-lg text-muted-foreground mb-4">
+            Interested in our educational guidance?
+          </p>
+          <button className="btn-outline">
+            Send an Inquiry
+          </button>
+        </div>
+      </section>
+
       {/* Conference Section */}
       <section className="py-20 px-6 bg-muted/30">
         <div className="max-w-7xl mx-auto">
