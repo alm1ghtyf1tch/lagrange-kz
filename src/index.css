@@ -8,50 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Lagrange.kz Design System - Inspired by EdEra */
-    --background: 0 0% 100%;
-    --foreground: 220 100% 10%;
+    /* Lagrange.kz Design System - Red Professional Theme */
+    --background: 0 38% 98%;
+    --foreground: 358 70% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 100% 10%;
+    --card-foreground: 358 70% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 100% 10%;
+    --popover-foreground: 358 70% 20%;
 
-    /* Primary: Deep Educational Blue */
-    --primary: 220 100% 27%;
+    /* Primary: Professional Red */
+    --primary: 358 70% 41%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 220 100% 85%;
-    --primary-dark: 220 100% 15%;
+    --primary-light: 0 78% 76%;
+    --primary-dark: 358 80% 30%;
 
-    /* Secondary: Light Blue Accents */
-    --secondary: 220 50% 96%;
-    --secondary-foreground: 220 100% 27%;
+    /* Secondary: Warm Pink Accents */
+    --secondary: 0 22% 77%;
+    --secondary-foreground: 358 70% 20%;
 
-    --muted: 220 20% 96%;
-    --muted-foreground: 220 20% 45%;
+    --muted: 0 15% 93%;
+    --muted-foreground: 0 10% 45%;
 
-    --accent: 220 100% 85%;
-    --accent-foreground: 220 100% 15%;
+    --accent: 0 78% 76%;
+    --accent-foreground: 358 70% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 90%;
-    --input: 220 20% 95%;
-    --ring: 220 100% 27%;
+    --border: 0 15% 85%;
+    --input: 0 20% 95%;
+    --ring: 358 70% 41%;
 
-    /* Lagrange Brand Colors */
-    --brand-blue: 220 100% 27%;
-    --brand-blue-light: 220 100% 85%;
-    --brand-blue-dark: 220 100% 15%;
-    --brand-gradient: linear-gradient(135deg, hsl(220 100% 27%), hsl(220 100% 35%));
-    --brand-gradient-light: linear-gradient(135deg, hsl(220 100% 85%), hsl(220 50% 90%));
+    /* Lagrange Brand Colors - Red Theme */
+    --brand-blue: 358 70% 41%;
+    --brand-blue-light: 0 78% 76%;
+    --brand-blue-dark: 358 80% 30%;
+    --brand-gradient: linear-gradient(135deg, hsl(358 70% 41%), hsl(358 70% 50%));
+    --brand-gradient-light: linear-gradient(135deg, hsl(0 78% 76%), hsl(0 22% 77%));
 
     /* Shadows */
-    --shadow-soft: 0 2px 20px hsl(220 100% 27% / 0.08);
-    --shadow-medium: 0 8px 30px hsl(220 100% 27% / 0.12);
-    --shadow-strong: 0 15px 40px hsl(220 100% 27% / 0.2);
+    --shadow-soft: 0 2px 20px hsl(358 70% 41% / 0.08);
+    --shadow-medium: 0 8px 30px hsl(358 70% 41% / 0.12);
+    --shadow-strong: 0 15px 40px hsl(358 70% 41% / 0.2);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -77,36 +77,36 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 100% 5%;
-    --foreground: 0 0% 98%;
+    --background: 358 50% 8%;
+    --foreground: 0 38% 98%;
 
-    --card: 220 100% 8%;
-    --card-foreground: 0 0% 98%;
+    --card: 358 40% 12%;
+    --card-foreground: 0 38% 98%;
 
-    --popover: 220 100% 8%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 358 40% 12%;
+    --popover-foreground: 0 38% 98%;
 
-    --primary: 220 100% 85%;
-    --primary-foreground: 220 100% 15%;
+    --primary: 0 78% 76%;
+    --primary-foreground: 358 70% 20%;
 
-    --secondary: 220 20% 15%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 358 30% 20%;
+    --secondary-foreground: 0 38% 98%;
 
-    --muted: 220 20% 12%;
-    --muted-foreground: 220 20% 65%;
+    --muted: 358 20% 15%;
+    --muted-foreground: 0 15% 65%;
 
-    --accent: 220 100% 27%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 358 70% 41%;
+    --accent-foreground: 0 38% 98%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 20% 20%;
-    --input: 220 20% 15%;
-    --ring: 220 100% 85%;
+    --border: 358 20% 25%;
+    --input: 358 20% 18%;
+    --ring: 0 78% 76%;
 
-    --brand-gradient: linear-gradient(135deg, hsl(220 100% 35%), hsl(220 100% 50%));
-    --brand-gradient-light: linear-gradient(135deg, hsl(220 100% 15%), hsl(220 50% 20%));
+    --brand-gradient: linear-gradient(135deg, hsl(358 70% 50%), hsl(0 78% 76%));
+    --brand-gradient-light: linear-gradient(135deg, hsl(358 40% 20%), hsl(358 30% 25%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
